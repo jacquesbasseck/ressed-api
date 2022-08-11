@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/adhesion",
+      "handler": "adhesion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/adhesion",
+      "handler": "adhesion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/adhesion",
+      "handler": "adhesion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

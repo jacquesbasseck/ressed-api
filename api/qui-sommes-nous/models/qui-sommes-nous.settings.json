@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "qui_sommes_nous_s",
+  "info": {
+    "name": "qui sommes nous ?",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uid": {
+      "type": "uid"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "auteur": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_liste_descs",
+  "info": {
+    "name": "desc",
+    "icon": "angle-right"
+  },
+  "options": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    }
+  }
+}

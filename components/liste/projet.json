@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_liste_projets",
+  "info": {
+    "name": "projet",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    }
+  }
+}

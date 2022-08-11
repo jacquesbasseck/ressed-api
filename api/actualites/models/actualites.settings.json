@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "actualites",
+  "info": {
+    "name": "actualités",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nouvelle": {
+      "type": "dynamiczone",
+      "components": [
+        "actualite.information"
+      ]
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

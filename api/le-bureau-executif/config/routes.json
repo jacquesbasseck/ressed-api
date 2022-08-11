@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/le-bureau-executifs",
+      "handler": "le-bureau-executif.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/le-bureau-executifs/count",
+      "handler": "le-bureau-executif.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/le-bureau-executifs/:id",
+      "handler": "le-bureau-executif.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/le-bureau-executifs",
+      "handler": "le-bureau-executif.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/le-bureau-executifs/:id",
+      "handler": "le-bureau-executif.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/le-bureau-executifs/:id",
+      "handler": "le-bureau-executif.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

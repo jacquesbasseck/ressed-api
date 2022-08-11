@@ -1,0 +1,66 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_sections",
+  "info": {
+    "name": "InfoSection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_id": {
+      "type": "string"
+    },
+    "lightBg": {
+      "type": "boolean"
+    },
+    "lightText": {
+      "type": "boolean"
+    },
+    "lightTextDesc": {
+      "type": "boolean"
+    },
+    "topLine": {
+      "type": "string"
+    },
+    "headLine": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "buttonLabel": {
+      "type": "string"
+    },
+    "imgStart": {
+      "type": "boolean"
+    },
+    "img": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "alt": {
+      "type": "string"
+    },
+    "dark": {
+      "type": "boolean"
+    },
+    "primary": {
+      "type": "boolean"
+    },
+    "darkText": {
+      "type": "boolean"
+    }
+  }
+}

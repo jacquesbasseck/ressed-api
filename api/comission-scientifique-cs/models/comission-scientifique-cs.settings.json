@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "commission",
+  "info": {
+    "name": "COMISSION  SCIENTIFIQUE (CS)",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "presentation": {
+      "type": "richtext"
+    },
+    "objectif": {
+      "type": "string"
+    },
+    "projets": {
+      "collection": "projets"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/comission-scientifique-cs",
+      "handler": "comission-scientifique-cs.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/comission-scientifique-cs",
+      "handler": "comission-scientifique-cs.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/comission-scientifique-cs",
+      "handler": "comission-scientifique-cs.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

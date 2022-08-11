@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_a_propos",
+  "info": {
+    "name": "Page à propos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titre": {
+      "type": "string"
+    },
+    "premierText": {
+      "type": "richtext"
+    },
+    "deuxiemeText": {
+      "type": "richtext"
+    },
+    "titreDeuxiemeText": {
+      "type": "string"
+    },
+    "texteBouton": {
+      "type": "string"
+    },
+    "titreMembre": {
+      "type": "string"
+    },
+    "avantages": {
+      "type": "component",
+      "repeatable": false,
+      "component": "liste.avantages"
+    },
+    "titreAdhesion": {
+      "type": "string"
+    },
+    "TexteAdhesion": {
+      "type": "text"
+    }
+  }
+}

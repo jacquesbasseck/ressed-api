@@ -1,0 +1,43 @@
+{
+  "kind": "singleType",
+  "collectionName": "commission_educations",
+  "info": {
+    "name": "Commission éducation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "presentation": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "promotions": {
+      "collection": "promotions"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

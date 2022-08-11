@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/commission-education",
+      "handler": "commission-education.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/commission-education",
+      "handler": "commission-education.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/commission-education",
+      "handler": "commission-education.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

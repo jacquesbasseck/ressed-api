@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_actualite_information",
+  "info": {
+    "name": "information",
+    "icon": "arrow-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "video",
+        "image",
+        "texte"
+      ]
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "texte": {
+      "type": "richtext"
+    },
+    "video": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}
